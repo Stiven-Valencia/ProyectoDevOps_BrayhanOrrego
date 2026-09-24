@@ -1,8 +1,8 @@
-# Proyecto DevOps - Práctica Guiada
+# ProyectoDevOps_BrayhanOrrego
 
-Este repositorio contiene la configuración inicial para la práctica de integración continua en Azure DevOps.
+Este repositorio forma parte de la práctica guiada para la gestión del ciclo de vida de desarrollo de software utilizando la plataforma Azure DevOps.
 
-## Objetivos del Proyecto
-- Configurar el flujo de trabajo agil mediante Azure Boards.
-- Gestionar el código fuente de forma centralizada con Azure Repos.
-- Implementar una canalización de Integración Continua (CI) automatizada en Azure Pipelines.
+## Contenido del Proyecto
+- Gestión de trabajo ágil con tableros Kanban en Azure Boards.
+- Almacenamiento y control de versiones mediante Git en Azure Repos.
+- Canalización de Integración Continua (CI) automatizada con Azure Pipelines.
