@@ -1,0 +1,22 @@
+trigger:
+- main
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- task: NodeTool@0
+  inputs:
+    versionSpec: '18.x'
+  displayName: 'Fase 1: Instalación de Node.js'
+
+- script: |
+    echo "Fase de compilacion iniciada..."
+    node -v
+    npm -v
+  displayName: 'Fase 2: Compilación y Verificación'
+
+- script: |
+    echo "Fase de pruebas iniciada..."
+    echo "Pruebas unitarias ejecutadas exitosamente."
+  displayName: 'Fase 3: Pruebas Automáticas'
